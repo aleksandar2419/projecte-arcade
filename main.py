@@ -7,7 +7,8 @@ def mostrar_menu():
 
 while True:
     mostrar_menu()
- if opcio == "1":
+    opcio = input("Selecciona una opció: ").upper()
+    if opcio == "1":
         jocs.janken()
     elif opcio == "2":
         jocs.nana()
